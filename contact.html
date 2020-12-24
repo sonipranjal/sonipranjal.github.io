@@ -1,80 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>View My Work</title>
+  </head>
 
-  <link rel="stylesheet" href="css/main.css">
-  <title>View My Work</title>
-</head>
-
-<body>
-  <header>
-    <div class="menu-btn">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
+  <body>
+    <div
+      class="arrow-container"
+      style="
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        right: 0;
+        top: 4rem;
+      "
+    >
+      <img
+        style="margin-right: 2.95rem; width: 6rem"
+        aria-hidden="true"
+        class="arrow"
+        src="./img/dark_create_class_arrow.svg"
+      />
     </div>
-
-    <nav class="menu">
-      <div class="menu-branding">
-        <div class="portrait"></div>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
       </div>
-      <ul class="menu-nav">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">
-            Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item current">
-          <a href="contact.html" class="nav-link">
-            Contact Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="public/index.html" class="nav-link">
-            Résumé
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
-  <main id="work projects">
-    <h1 class="lg-heading" style="margin-top: 3rem;">
-      Contact
-      <span class="text-secondary">Me</span>
-    </h1>
-    <h2 class="sm-heading">
-      This is how you can reach me...
-    </h2>
-    <div class="boxes">
-      <div style="font-size: 1.2rem;">
-        <span class="text-secondary">Email: </span> u18me096@med.svnit.ac.in
-      </div> 
-    </div>
-  </main>
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link"> Contact Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="public/index.html" class="nav-link"> Résumé </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
+    <main id="work projects">
+      <h1 class="lg-heading" style="margin-top: 3rem">
+        Contact
+        <span class="text-secondary">Me</span>
+      </h1>
+      <h2 class="sm-heading">This is how you can reach me...</h2>
+      <div class="boxes">
+        <div style="font-size: 1.2rem">
+          <span class="text-secondary">Email: </span> u18me096@med.svnit.ac.in
+        </div>
+      </div>
+    </main>
 
-  <footer id="main-footer">
-    Copyright &copy; 2020
-  </footer>
+    <footer id="main-footer">Copyright &copy; 2020</footer>
 
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
